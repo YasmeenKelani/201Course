@@ -1,8 +1,8 @@
 'use strict'
 
 
-let name = prompt("What is your name?").toLowerCase();
-alert("Welcome to my website" + name)
+let name = prompt("What is your name?").toLowerCase()
+alert("Welcome to my website" + " " +  name)
 
 
 let painting = prompt("Do you think I can draw? yes,no")
@@ -60,7 +60,7 @@ else if (personality == "no"){
     alert("incorrect")
 }
 
-alert("Thank you for using my website" + name)
+alert("Thank you for using my website" + " " + name)
 
 
 
