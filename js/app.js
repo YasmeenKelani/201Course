@@ -115,7 +115,7 @@ switch (personality) {
 }
 
 let num
-for (let i = 0; i < 4; i++) {
+for (let i = 1; i <= 4; i++) {
     num = Number(prompt("guess my age?"))
 
     if (num === 23) {
@@ -140,7 +140,7 @@ if (num != 23)
  let  places 
 let favplaces = ['France', 'Tokyo', 'Colombia', 'Italy', 'Singapore', 'Maldives', 'New Zeland', 'Bali', 'Cyprus', 'United Kingdom'];
 
-for (let x = 0; x < 6; x++) {
+for (let x = 1; x <= 6; x++) {
       places = (prompt("What is my fav places I want to visit?"))
 //    console.log(places + " user answer");
 let j;
