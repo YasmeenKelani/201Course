@@ -8,6 +8,16 @@ alert("Welcome to my website" + " " + name)
 alert("This is my gussing game")
 let score = 0;
 
+
+FirstQ();
+secondQ();
+ThreeQ();
+fourQ();
+fiveQ();
+sexQ();
+sevenQ();
+
+function FirstQ(){
 let painting = prompt("Do you think I can draw? yes,no").toLowerCase();
 
 switch (painting) {
@@ -26,8 +36,9 @@ switch (painting) {
     default:
         alert("please answer yes or no ");
 }
+}
 
-
+function secondQ(){
 let styling = prompt("Do you think I like styling using CSS?yes,no").toLowerCase();
 
 switch (styling) {
@@ -45,11 +56,11 @@ switch (styling) {
 
     default:
         alert("None");
+ }
 }
 
 
-
-
+function ThreeQ(){
 let colors = prompt("Do you think that My favorite color is blue? yes,no").toLowerCase();
 
 
@@ -70,8 +81,10 @@ switch (colors) {
     default:
         alert("None");
 }
+}
 
 
+function fourQ(){
 let tarvel = prompt("Do I like traviling? yes,no").toLowerCase();
 
 switch (tarvel) {
@@ -90,10 +103,11 @@ switch (tarvel) {
 
     default:
         alert("None");
+  }
 }
 
 
-
+function fiveQ(){
 let personality = prompt("Do you think that I'm a logical person? yes,no").toLowerCase();
 
 switch (personality) {
@@ -113,7 +127,9 @@ switch (personality) {
     default:
         alert("None");
 }
+}
 
+function sexQ(){
 let num
 for (let i = 1; i <= 4; i++) {
     num = Number(prompt("guess my age?"))
@@ -135,8 +151,10 @@ for (let i = 1; i <= 4; i++) {
 
 if (num != 23)
     alert("My age is 23")
+}
 
 
+function sevenQ(){
  let  places 
 let favplaces = ['France', 'Tokyo', 'Colombia', 'Italy', 'Singapore', 'Maldives', 'New Zeland', 'Bali', 'Cyprus', 'United Kingdom'];
 
@@ -163,6 +181,7 @@ let j;
         alert("incorrect answer");
         
     }
+}
 }
 
 alert("You finished your attempet and this is the correct answer: France, Tokyo, Colombia, Italy, Singapore, Maldives, New Zeland, Bali, Cyprus, United Kingdom");
