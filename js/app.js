@@ -9,15 +9,15 @@ alert("This is my gussing game")
 let score = 0;
 
 
-FirstQ();
-secondQ();
-ThreeQ();
-fourQ();
-fiveQ();
-sexQ();
-sevenQ();
+question1();
+question2();
+question3();
+question4();
+question5();
+question6();
+question7();
 
-function FirstQ(){
+function question1(){
 let painting = prompt("Do you think I can draw? yes,no").toLowerCase();
 
 switch (painting) {
@@ -38,7 +38,7 @@ switch (painting) {
 }
 }
 
-function secondQ(){
+function question2(){
 let styling = prompt("Do you think I like styling using CSS?yes,no").toLowerCase();
 
 switch (styling) {
@@ -60,7 +60,7 @@ switch (styling) {
 }
 
 
-function ThreeQ(){
+function question3(){
 let colors = prompt("Do you think that My favorite color is blue? yes,no").toLowerCase();
 
 
@@ -84,7 +84,7 @@ switch (colors) {
 }
 
 
-function fourQ(){
+function question4(){
 let tarvel = prompt("Do I like traviling? yes,no").toLowerCase();
 
 switch (tarvel) {
@@ -107,7 +107,7 @@ switch (tarvel) {
 }
 
 
-function fiveQ(){
+function question5(){
 let personality = prompt("Do you think that I'm a logical person? yes,no").toLowerCase();
 
 switch (personality) {
@@ -129,7 +129,7 @@ switch (personality) {
 }
 }
 
-function sexQ(){
+function question6(){
 let num
 for (let i = 1; i <= 4; i++) {
     num = Number(prompt("guess my age?"))
@@ -154,7 +154,7 @@ if (num != 23)
 }
 
 
-function sevenQ(){
+function question7(){
  let  places 
 let favplaces = ['France', 'Tokyo', 'Colombia', 'Italy', 'Singapore', 'Maldives', 'New Zeland', 'Bali', 'Cyprus', 'United Kingdom'];
 
