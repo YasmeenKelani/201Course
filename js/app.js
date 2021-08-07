@@ -160,10 +160,10 @@ let favplaces = ['France', 'Tokyo', 'Colombia', 'Italy', 'Singapore', 'Maldives'
 
 for (let x = 1; x <= 6; x++) {
       places = (prompt("What is my favorite places I want to visit? you can choose from: Tokyo, France, Eygpt, Dubai, Bali"))
-//    console.log(places + " user answer");
+   console.log(places + " user answer");
 let j;
     for ( j = 0; j < favplaces.length; j++) {
-        // console.log(favplaces[j] + "correct answer");
+         console.log(favplaces[j] + "correct answer");
 
         if (places == favplaces[j]) {
             alert("That's corresct");
