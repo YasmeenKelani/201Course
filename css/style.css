@@ -1,0 +1,67 @@
+body {
+    background-image: url(https://www.wallpapertip.com/wmimgs/31-312825_eiffel-tower.jpg);
+     background-repeat: no-repeat ;
+      background-size: cover;
+    padding: 0px;}
+
+header {
+  background-color: whitesmoke;
+}
+
+header{
+    background-color: white;
+    height: 50px;
+    font-size: 20px; 
+    margin: 12px;
+   padding-top: 12px;
+   padding-bottom: 12px;
+   position: relative;
+  
+}
+
+
+header li {
+    margin: 20px;
+    display: inline;
+    padding: 12px;
+    padding-bottom: 12px;
+    
+}
+
+header li a {
+    color: blue;
+    text-decoration: none;
+}
+
+
+ #ul { 
+     background-color: lightblue;  
+     text-align: center;
+     opacity: 0.5;
+     font-weight: bold;
+     font-size: large;
+     color:black;
+     }
+
+ ol { color: white;
+    padding: 1px;
+    margin: 15px;
+    font-size:large;
+    
+     } 
+
+footer {
+    
+    text-align: center;
+background-color: white ;
+   background-repeat: no-repeat;
+   background-size: 100%;
+   padding: 70px;
+   font-size: x-large;
+   color: black;
+   bottom: 0px;
+   top: 0px;
+   
+}
+
+

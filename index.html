@@ -5,48 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title> About me </title>
-
     
+    <link rel="stylesheet" href="css/style.css">
+    
+
+    <script> 
+      $(function(){
+        $("#includedContent").load("home.html"); 
+      });
+      </script>
+
+
   
 </head>
-  <body style="background-color: aquamarine;">
+  <body>
     <header>
+    
       <nav>
         <ul>
-          <li><a href="">home</a></li>
-          <li><a href="">products</a></li>
-          <li><a href="">about us</a></li>
-          <li><a href="">more</a></li>
+          <li><a href="home.html">home</a></li>
+          <li><a href="contact us.html">contact us</a></li>
+          <li><a href="about us.html" >about us</a></li>
+          <li><a href="more.html">more</a></li>
         </ul>
       </nav>
     </header>
     <main>
      
-      <ul style="background-color: peachpuff;">
+      <ul id="ul">
         <h2>About Me</h2>
-        <li> My name is Yasmeen Al-Kelani, I'm 23 years old</li>
-        <li>I'm studying Software Engineering - Luminus Technical University</li>
-        <li>I know programming languages wich is java, JavaScript, HTML, MarkDown and CSS</li>
-        <li>I am looking forward to join a company that allows me to use the skills I gained during my studies</li>
-        <li>This is my graduation semester</li>
+        <li> My name is Yasmeen Al-Kelani, I'm 23 years old.</li>
+        <li>I'm studying Software Engineering - Luminus Technical University.</li>
+        <li>I know programming languages wich is java, JavaScript, HTML, MarkDown and CSS.</li>
+        <li>I am looking forward to join a company that allows me to use the skills I gained during my studies.</li>
+        <li>This is my graduation semester.</li>
       </ul>
        
-      <ol style="background-color: peachpuff">
-        <h3>My top 10 places to visit</h3>
-        <li>Tokyo</li>
-        <li>Singapore</li>
-        <li>Maldives</li>
-        <li>New Zealand</li>
-        <li>Bali</li>
-        <li>Cyprus</li>
-        <li>Colombia</li>
-        <li>France</li>
-        <li>Italy</li>
-        <li>United Kingdom</li>
+      <ol>
+        <h3>My top 10 places to visit:</h3>
+        <li>Tokyo.</li> 
+        <li>Singapore.</li>
+        <li>Maldives.</li>
+        <li>New Zealand.</li>
+        <li>Bali.</li>
+        <li>Cyprus.</li>
+        <li>Colombia.</li>
+        <li>France.</li>
+        <li>Italy.</li>
+        <li>United Kingdom.</li>
       </ol>
-
+       
+      
     </main>
-    <footer>Yasmeen Al-Kelani</footer>
+    <footer> &copy;Yasmeen Al-Kelani </footer>
     <script src="js/app.js"></script>
   </body>
 </html>
